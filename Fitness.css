@@ -1,0 +1,82 @@
+/* Fitness.css */
+
+.container {
+    align-items: center; 
+    height: 100%;
+    background-image: url('/src/assests/clark-tibbs-oqStl2L5oxI-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+  }
+  .heading {
+    
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+  }
+  .swiper_container {
+    margin-top: 2%;
+    max-width: 80%; 
+    max-height: 40%;
+  }
+  .slider-controler {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-top: -50%; */
+    /* Add any other styles you need for the slider controller */
+  }
+  
+  .swiper-button-prev
+  .swiper-button-next {
+    cursor: pointer;
+   
+  }
+  
+  .swiper-pagination {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Add any other styles you need for the pagination */
+  }
+  
+  .swiper-image {
+    max-width: 100%;
+    max-height: 100%;
+    /* Add any other styles you need for the images */
+  }
+  .swiper {
+   text-align: center;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+
+}
+.swiper-slide {
+    display: block;
+    flex-shrink: 0;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    /* transition-property: transform; */
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: block;
+}
+.hydrated {
+    visibility: inherit;
+    height: auto;
+}
